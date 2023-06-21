@@ -4,6 +4,9 @@ import Github from '../assets/github.png';
 import Html from '../assets/html.png';
 import Javascript from '../assets/javascript.png'
 import ReactJs from '../assets/ReactJS.png';
+import Tailwind from '../assets/tailwind.png';
+import Bootstrap from '../assets/Bootstrap.jpg';
+import Bulma from '../assets/bulma.png';
 
 
 const Skills = () => {
@@ -31,6 +34,18 @@ const Skills = () => {
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={ReactJs} alt="Html icon" />
                 <p className='my-4'>ReactJS</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Tailwind} alt="Html icon" />
+                <p className='my-4'>TAILWIND</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Bootstrap} alt="Html icon" />
+                <p className='my-4'>BOOTSTRAP</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Bulma} alt="Html icon" />
+                <p className='my-4'>BULMA CSS</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Github} alt="Html icon" />

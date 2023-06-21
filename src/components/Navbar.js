@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import {FaBars, FaGithub, FaLinkedin, FaTimes} from 'react-icons/fa';
+import {FaBars, FaGithub, FaLinkedin, FaTimes, FaTwitter} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from '../assets/Logo.png';
 import {Link} from 'react-scroll';
+import Resume from '../resume.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -89,28 +90,35 @@ const Navbar = () => {
         <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                 href="/">
+                 href="https://www.linkedin.com/in/gabriel-ochieng-thegabrielshow" target='blank'>
                     LinkedIn <FaLinkedin size={30} />
+                </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                <a className='flex justify-between items-center w-full text-gray-300'
+                 href="https://twitter.com/GabrielOginga?t=bX7M5jEevYL2BiQ1ZAhniQ&s=09" target='blank'>
+                    Twitter <FaTwitter size={30} />
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                 href="/">
+                 href="https://github.com/GabrielOchieng/portfolio.git" target='blank'> 
                     Github <FaGithub size={30} />
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                 href="/">
+                 href="ogingagabriel@gmail.com" target='blank'>
                     Email <HiOutlineMail size={30} />
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                 href="/">
+                 href={Resume} download="RESUME">
                     Resume <BsFillPersonLinesFill size={30} />
                 </a>
             </li>
+            
         </ul>
 
       </div>

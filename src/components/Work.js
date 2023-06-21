@@ -1,11 +1,15 @@
 import React from 'react';
 import Javascript from '../assets/javascript.png'
 import ReactJs from '../assets/ReactJS.png';
+import Booking from '../assets/Book.jpeg';
+import Rarieda from '../assets/Raricdc.jpeg';
+import Portfolio from '../assets/Portfpic.jpeg';
+import Budget from '../assets/Budget.jpg';
 
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen mb-10 text-gray-300 bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
@@ -16,82 +20,82 @@ const Work = () => {
             <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                 {/* grid item  */}
-                <div style={{ backgroundImage: `url(${ReactJs})`}}
+                <div style={{ backgroundImage: `url(${Portfolio})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJS Application
+                            Portfolio Website
 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://portfolio-gabrielochieng.vercel.app/" target='blank'>Demo</a></button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://github.com/GabrielOchieng/portfolio.git" target='blank'>Code</a></button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{ backgroundImage: `url(${Javascript})`}}
+                <div style={{ backgroundImage: `url(${Budget})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJS Application
+                        <span className='text-2xl font-bold text-black tracking-wider'>
+                            Budget Tracker
 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://budget-tracker-bay.vercel.app/" target='blank'>Demo</a></button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://github.com/GabrielOchieng/budget-tracker.git" target='blank'>Code</a></button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{ backgroundImage: `url(${ReactJs})`}}
+                <div style={{ backgroundImage: `url(${Rarieda})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJS Application
+                            Rarieda Website
 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://rarieda-satellite-cdc-gabrielochieng.vercel.app/" target='blank'>Demo</a></button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://github.com/GabrielOchieng/rarieda-satellite-cdc.git" target='blank'>Code</a></button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{ backgroundImage: `url(${Javascript})`}}
+                <div style={{ backgroundImage: `url(${Booking})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJS Application
+                            Booking App
 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://booking-app-beta-two.vercel.app/" target='blank'>Demo</a></button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><a href="https://github.com/GabrielOchieng/booking-app.git" target='blank'>Code</a></button>
                             </a>
                         </div>
                     </div>
